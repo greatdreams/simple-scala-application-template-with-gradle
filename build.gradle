@@ -16,11 +16,13 @@ def scalaVersion = '2.12.3'
 def scalaTestVersion = '3.0.4'
 def logbackVersion = '1.2.3'
 def groovyVersion = '2.4.12'
+def scalaGuiceVersion = '4.1.0'
 // In this section you declare the dependencies for your production and test code
 dependencies {
     compile "com.typesafe.zinc:zinc:${zincVersion}"
     compile "org.scala-lang:scala-compiler:${scalaVersion}"
     compile "org.scala-lang:scala-library:${scalaVersion}"
+    compile "net.codingwell:scala-guice_2.10:${scalaGuiceVersion}"
 
     // The production code uses the SLF4J logging API at compile time
     compile 'org.slf4j:slf4j-api:1.7.25'
