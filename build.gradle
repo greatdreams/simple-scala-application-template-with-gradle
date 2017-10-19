@@ -1,10 +1,10 @@
 
 // Apply the java plugin to add support for Java
-// apply plugin: 'java'
+apply plugin: 'java'
 // Apply the scala plugin to add support for Scala
 apply plugin: 'scala'
 apply plugin: 'application'
-// apply plugin: 'distribution'
+apply plugin: 'distribution'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -22,7 +22,7 @@ dependencies {
     compile "com.typesafe.zinc:zinc:${zincVersion}"
     compile "org.scala-lang:scala-compiler:${scalaVersion}"
     compile "org.scala-lang:scala-library:${scalaVersion}"
-    compile "net.codingwell:scala-guice_2.10:${scalaGuiceVersion}"
+    compile "net.codingwell:scala-guice_2.12:${scalaGuiceVersion}"
 
     // The production code uses the SLF4J logging API at compile time
     compile 'org.slf4j:slf4j-api:1.7.25'

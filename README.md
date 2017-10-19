@@ -18,3 +18,5 @@ $./gradlew build
 1. https://scala-lang.org
 2. https://gradle.org
 3. https://docs.gradle.org/4.2/userguide/scala_plugin.html
+4. https://github.com/google/guice/
+5. https://github.com/codingwell/scala-guice
