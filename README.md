@@ -20,3 +20,4 @@ $./gradlew build
 3. https://docs.gradle.org/4.2/userguide/scala_plugin.html
 4. https://github.com/google/guice/
 5. https://github.com/codingwell/scala-guice
+6. https://github.com/tototoshi/scala-csv
