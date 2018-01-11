@@ -21,3 +21,8 @@ $./gradlew build
 4. https://github.com/google/guice/
 5. https://github.com/codingwell/scala-guice
 6. https://github.com/tototoshi/scala-csv
+7. anorm https://github.com/playframework/anorm
+8. slick http://slick.typesafe.com/
+9. commons-dhcp2 https://commons.apache.org/proper/commons-dbcp/
+10. HikariCP https://brettwooldridge.github.io/HikariCP/
+11. ScalaTest http://www.scalatest.org/
