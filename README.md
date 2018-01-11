@@ -26,3 +26,4 @@ $./gradlew build
 9. commons-dhcp2 https://commons.apache.org/proper/commons-dbcp/
 10. HikariCP https://brettwooldridge.github.io/HikariCP/
 11. ScalaTest http://www.scalatest.org/
+12. proxyutil https://github.com/Karasiq/proxychain
